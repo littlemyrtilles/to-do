@@ -1,0 +1,96 @@
+html, body {
+    background-color: #BFF4ED;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: Rock Salt;
+}
+
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+main {
+    text-align: center;
+    padding: 5vmin;
+  }
+
+.card-header {
+    font-weight: bold;
+    background-color: orange;
+    font-family: Rock Salt;
+    border-width: 2px !important;
+    border-color: #3d766e !important;
+    padding: 15px;
+}
+
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-width: 2px !important;
+    border-color: #3d766e !important;
+}
+
+li p {
+    margin-bottom: 0px !important;
+    text-align: start;
+    font-family: nanum pen script;
+    font-size: 25px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    margin-bottom: 0px !important;
+}
+
+.btn {
+    background-color: orange !important;
+    border-width: 2px !important;
+    border-color: #3d766e !important;
+    color: white;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+  }
+
+.task-fade-out {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-out;
+  }
+
+#toTopBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border-width: 2px;
+    /* outline: none;  */
+    border-color: #3d766e;
+    background-color: orange; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+.list-group-item {
+    background-color: #f4f6f7;
+  }
+
+input.form-check-input:checked {
+    background-color: #3d766e;
+    border-color: #3d766e;
+    }
+
+  
+
